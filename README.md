@@ -8,12 +8,12 @@ This repository contains code i have (will) written (write), while (or if) i was
 
 ### in progress:
 
-- [.] Programmieren lernen mit Javascript => [Book](https://www.rheinwerk-verlag.de/programmieren-lernen-mit-javascript/) and [Repository](/programmieren_lernen_mit_javascript_2022)
-- [.] Javascript - Das umfassende Handbuch => [Book](https://www.rheinwerk-verlag.de/javascript-das-umfassende-handbuch/)
-- [.] HTML und CSS - Das umfassende Handbuch => [Book](https://www.rheinwerk-verlag.de/html-und-css-das-umfassende-handbuch/)
-- [.] Besser coden => [Book](https://www.rheinwerk-verlag.de/besser-coden/)
-- [.] Das ABC der Farbe => [Book](https://www.rheinwerk-verlag.de/das-abc-der-farbe-theorie-und-praxis-fuer-grafiker-und-fotografen/)
-- [.] GIT - Projektverwaltung für Entwickler und DevOps-Teams => [Book](https://www.rheinwerk-verlag.de/git-projektverwaltung-fuer-entwickler-und-devops-teams/)
+- [ ] Programmieren lernen mit Javascript => [Book](https://www.rheinwerk-verlag.de/programmieren-lernen-mit-javascript/) and [Repository](/programmieren_lernen_mit_javascript_2022)
+- [ ] Javascript - Das umfassende Handbuch => [Book](https://www.rheinwerk-verlag.de/javascript-das-umfassende-handbuch/)
+- [ ] HTML und CSS - Das umfassende Handbuch => [Book](https://www.rheinwerk-verlag.de/html-und-css-das-umfassende-handbuch/)
+- [ ] Besser coden => [Book](https://www.rheinwerk-verlag.de/besser-coden/)
+- [ ] Das ABC der Farbe => [Book](https://www.rheinwerk-verlag.de/das-abc-der-farbe-theorie-und-praxis-fuer-grafiker-und-fotografen/)
+- [ ] GIT - Projektverwaltung für Entwickler und DevOps-Teams => [Book](https://www.rheinwerk-verlag.de/git-projektverwaltung-fuer-entwickler-und-devops-teams/)
 
 ### backlog:
 
