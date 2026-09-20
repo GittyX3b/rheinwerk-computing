@@ -1,0 +1,13 @@
+body {
+  background: lightgoldenrodyellow;
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 20px;
+}
+
+h3 {
+  background: peru;
+  color: white;
+  border: 5px;
+  padding: 5px;
+}
