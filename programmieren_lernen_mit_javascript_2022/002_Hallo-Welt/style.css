@@ -1,0 +1,21 @@
+body {
+  background: rgb(41, 2, 37);
+  color: rgb(17, 241, 32);
+  font-family: monospace;
+  padding: 15px;
+}
+
+#Sqrt-Phrase,
+#Sqrt-Failed {
+  display: none;
+}
+
+#Sqrt-Origin,
+#Sqrt-Result {
+  color: rgb(211, 210, 210);
+  font-size: larger;
+}
+
+#Sqrt-Result {
+  padding: 0px 20px;
+}
