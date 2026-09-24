@@ -5,17 +5,11 @@ body {
   padding: 15px;
 }
 
-#Sqrt-Phrase,
-#Sqrt-Failed {
+.hidden {
   display: none;
 }
 
-#Sqrt-Origin,
-#Sqrt-Result {
+span {
   color: rgb(211, 210, 210);
   font-size: larger;
-}
-
-#Sqrt-Result {
-  padding: 0px 20px;
 }

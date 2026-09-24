@@ -20,3 +20,28 @@ if (sqrt_o !== null && sqrt_o.trim() !== "") {
     SQRT_FAILED.style.display = "block";
   }
 }
+
+// dropping time
+
+const DROPPING_PHRASE = document.getElementById("Dropping-Phrase");
+const DROPPING_HEIGHT = document.getElementById("Dropping-Height");
+const DROPPING_TIME = document.getElementById("Dropping-Time");
+const DROPPING_FAILED = document.getElementById("Dropping-Failed");
+
+let dropping_speed = 9.81;
+let dropping_height = prompt(
+  "Berechnung der Falldauer auf der Erde (im Vakuum): ",
+  "Gib die Fallhöhe in Metern ein...",
+);
+
+if (dropping_height !== null && dropping_height.trim() !== "") {
+  let dropping_time = Math.sqrt((2 * dropping_height) / dropping_speed);
+
+  if (!Number.isNaN(dropping_time)) {
+    DROPPING_HEIGHT.textContent = dropping_height;
+    DROPPING_TIME.textContent = dropping_time;
+    DROPPING_PHRASE.style.display = "block";
+  } else {
+    DROPPING_FAILED_FAILED.style.display = "block";
+  }
+}
