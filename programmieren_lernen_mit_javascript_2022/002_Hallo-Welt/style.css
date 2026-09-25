@@ -5,6 +5,18 @@ body {
   padding: 15px;
 }
 
+button {
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.button-table,
+.button-table div {
+  display: flex;
+  align-items: center;
+}
+
 .hidden {
   display: none;
 }
