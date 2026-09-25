@@ -7,23 +7,40 @@
   </head>
   <body>
     <h1>Hallo Welt!</h1>
+
     <div>
-      <p id="Sqrt-Phrase" class="hidden">
-        Die Quadratwurzel aus <span id="Sqrt-Origin"></span> lautet:
-        <span id="Sqrt-Result"></span>
-      </p>
-      <p id="Sqrt-Failed" class="hidden"></p>
-        Die Berechnung der Wurzel erfordert vailde Startwerte.
-      </p>
+      <button onclick="hello()" title="Zeigt Standard-Browser-Modal">
+        Alert-Modal
+      </button>
     </div>
-    <div>
-      <p id="Dropping-Phrase" class="hidden">
-        Die Falldauer aus <span id="Dropping-Height"></span> Metern beträgt:
-        <span id="Dropping-Time"></span> Sekunden.
-      </p>
-      <p id="Dropping-Failed" class="hidden">
-        Die Berechnung der Falldauer erfordert vailde Startwerte.
-      </p>
+
+    <div class="button-table">
+      <button onclick="calculate_sqrt()" title="Öffnet Eingabefenster">
+        Quadratwurzel berechnen
+      </button>
+      <div>
+        <p id="Sqrt-Phrase" class="hidden">
+          Die Quadratwurzel aus <span id="Sqrt-Origin"></span> lautet:
+          <span id="Sqrt-Result"></span>
+        </p>
+        <p id="Sqrt-Failed" class="hidden">
+          Die Berechnung der Wurzel erfordert vailde Startwerte.
+        </p>
+      </div>
+    </div>
+    <div class="button-table">
+      <button onclick="calculate_freefalltime()" title="Öffnet Eingabefenster">
+        Falldauer berechnen
+      </button>
+      <div>
+        <p id="Dropping-Phrase" class="hidden">
+          Die Falldauer aus <span id="Dropping-Height"></span> Metern beträgt:
+          <span id="Dropping-Time"></span> Sekunden.
+        </p>
+        <p id="Dropping-Failed" class="hidden">
+          Die Berechnung der Falldauer erfordert vailde Startwerte.
+        </p>
+      </div>
     </div>
 
     <script src="./index.js" defer></script>
