@@ -26,8 +26,6 @@ const calculate_sqrt = () => {
   if (sqrt_o !== null && sqrt_o.trim() !== "") {
     let sqrt_r = Math.sqrt(Number(sqrt_o));
 
-    console.log(sqrt_r);
-
     if (!Number.isNaN(sqrt_r)) {
       SQRT_ORIGIN.textContent = sqrt_o;
       SQRT_RESULT.textContent = sqrt_r;
